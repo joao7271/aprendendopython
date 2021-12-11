@@ -7,10 +7,8 @@ while id_mouse != 'sair':
     defeito = 0
     if id_mouse in list_mouse:
         id_mouse = input("\nID já existente! Insira uma ID não cadastrada ou 0 para sair: ")
-        if id_mouse not in list_mouse:
-            list_mouse[id_mouse] = defeito
-        else:
-            list_mouse[id_mouse] = defeito
+    if id_mouse not in list_mouse:
+        list_mouse[id_mouse] = defeito
     print("\nLista de defeitos:")
     print(f"\n1 - Sem esfera")
     print("2 - Quebrado")
