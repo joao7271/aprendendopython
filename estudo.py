@@ -34,10 +34,10 @@ try:
     print('|',('-' * 81),'|')
     print("|Tipo de Defeito:                                      Quantidade       Percentual  |")
     print('|',('-' * 81),'|')
-    print(f"1 - Sem esfera                                                {defeitos[1]}                {per_def1}")
-    print(f"2 - Quebrado                                                  {defeitos[2]}                {per_def2}")
-    print(f"3 - Trocar Cabo                                               {defeitos[3]}                {per_def3}")
-    print(f"4 - Apenas LImpar                                             {defeitos[4]}                {per_def4}\n")
+    print(f"1 - Sem esfera                                                {defeitos[1]}                {per_def1:.2f}")
+    print(f"2 - Quebrado                                                  {defeitos[2]}                {per_def2:.2f}")
+    print(f"3 - Trocar Cabo                                               {defeitos[3]}                {per_def3:.2f}")
+    print(f"4 - Apenas LImpar                                             {defeitos[4]}                {per_def4:.2f}\n")
 except ZeroDivisionError:
     print("\nVoce finalizou o programa. Até mais!")
 else:
